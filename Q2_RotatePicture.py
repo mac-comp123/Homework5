@@ -8,8 +8,8 @@
 if __name__ == '__main__':
     eagle = Picture("SampleImages/baldEagle.jpg")
     eagle45 = rotate_pic(eagle, 45)
-    eagle60 = rotate_pic(p0, 60)
+    eagle60 = rotate_pic(eagle, 60)
 
     astilbe = Picture("SampleImages/astilbe.jpg")
-    astilbe_33 = rotate_pic(p1, -33)
-    astilbe10 = rotate_pic(p1, 10)
+    astilbe_33 = rotate_pic(astilbe, -33)
+    astilbe10 = rotate_pic(astilbe, 10)
