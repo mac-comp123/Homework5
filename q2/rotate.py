@@ -18,7 +18,7 @@ def main():
     astilbe = Picture("../SampleImages/astilbe.jpg")
     astilbe_33 = rotate_pic(astilbe, -33)
     astilbe10 = rotate_pic(astilbe, 10)
-    display_images(astilbe, astilbe_33, astilbe10)
+    display_images([astilbe, astilbe_33, astilbe10])
 
 
 if __name__ == '__main__':

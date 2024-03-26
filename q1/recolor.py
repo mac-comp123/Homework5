@@ -27,7 +27,7 @@ def main():
                    (166, 237, 90),  # light green
                    (240, 128, 128),  # light coral
                    (135, 206, 250),  # light sky blue
-                    "white", "black", "blue"]
+                   "white", "black", "blue"]
     butterfly = Picture("../SampleImages/butterfly.jpg")
     butterfly_recolored = recolor(butterfly, color_list2)
     display_images([butterfly, butterfly_recolored])
