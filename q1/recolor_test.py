@@ -1,10 +1,10 @@
 """
-A set of unit tests for the functions in Q1_RecolorPicture module
+A set of unit tests for the functions in recolor module
 
 @author: Amin G. Alhashim (aalhashi@macalester.edu)
 """
 
-from Q1_RecolorPicture import *
+from recolor import find_closest_color
 
 
 def test_fcc_one_color_list() -> None:

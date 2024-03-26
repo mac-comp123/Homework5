@@ -1,8 +1,9 @@
 """
+@author: Amin G. Alhashim (aalhashi@macalester.edu)
 @author: <put your name here>
 """
-
-from imageTools import *
+from util.imageTools import *
+from util.display_helper import *
 
 def average_color(pic: Picture, x0: int, y0: int, size: int) -> ImageColor:
     """
@@ -33,3 +34,18 @@ def average_color(pic: Picture, x0: int, y0: int, size: int) -> ImageColor:
 
 
 # TODO: implement the mosaic function below
+
+
+def main():
+    astilbe = Picture("../SampleImages/astilbe.jpg")
+    astilbe_mosaic = mosaic(astilbe, 50)
+    display_images([astilbe, astilbe_mosaic])
+
+
+    pine = Picture("../SampleImages/bristleconePine.jpg")
+    pine_mosaic = mosaic(pine, 10)
+    display_images([pine, pine_mosaic])
+
+
+if __name__ == '__main__':
+    main()
