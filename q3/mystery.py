@@ -22,9 +22,10 @@ def main():
     display_images([img_red, img_blue])
 
     undistort_red(img_red)
-    display_images([undistort_red])
     undistort_blue(img_blue)
-    display_images([undistort_blue])
+    scene = Picture("theCrimeScene.png")
+    culprit = Picture("theCulprit.png")
+    display_images([scene, culprit])
 
 
 if __name__ == '__main__':
